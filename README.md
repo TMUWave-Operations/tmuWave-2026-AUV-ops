@@ -58,9 +58,13 @@ code .
 
 ## Before Starting Work
 
-Always pull the latest changes first:
+In Ubuntu:
+
+cd ~/projects/tmuWave-2026-AUV-ops
 
 git pull
+
+code .
 
 ---
 
