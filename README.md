@@ -54,16 +54,6 @@ code .
 
 ---
 
-## 2. Fetch Latest Changes
-
-Before working, always make sure your repository is up to date.
-
-In terminal:
-
-git pull 
-
----
-
 # Workflow
 
 ## Before Starting Work
