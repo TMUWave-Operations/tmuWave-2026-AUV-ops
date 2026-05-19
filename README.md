@@ -1,1 +1,125 @@
-# tmuWave-2026-AUV-operations
+# TMU Wave AUV Software Repository Onboarding
+Task Distribution Guide: https://docs.google.com/document/d/1PYVXZZVbqKc5l0N-4jWKEzgkkuRrkx8ZUTT8R2Tvwa4/edit?tab=t.0
+
+Task Distribution Tracker: https://docs.google.com/spreadsheets/d/13jqPk8_FQUEE8H4M-rOIdoNeXM-QC-CMDc386ToPW-o/edit?gid=0#gid=0
+
+NOTE: The current file structure was created as a base for the subteam to use, if additional files need to be created then please create them with clear intention and put them in their respective folders - same goes for creating additional folders. Make sure file/folder names are clear and that ALL folders you work in include a **README**. 
+
+Guide for WSL: https://learn.microsoft.com/en-us/windows/wsl/setup/environment#file-storage
+
+## Required Software
+
+Before starting, install the following:
+
+- WSL (Windows Subsystem for Linux)
+- Ubuntu (through WSL)
+- GitHub Desktop     - https://desktop.github.com/download/
+- Visual Studio Code - https://code.visualstudio.com/
+- Python 3           - https://www.python.org/downloads/
+
+Recommended VS Code Extensions:
+- Python
+- Python Debugger
+- Pylance
+
+Latest versions are fine for all software.
+
+---
+
+# Initial Repository Setup (UBUNTU):
+
+## Open ubuntu and make a project folder
+
+mkdir -p ~/projects
+
+## then go into folder: 
+
+cd ~/projects
+
+## Clone repo: 
+
+git clone 'https clone link'
+
+## Go into repo: 
+
+cd tmuWave-2026-AUV-ops
+
+## Configure Git (first time only): 
+
+git config --global user.name "your username/email"
+
+## Open VS code (still from ubuntu): 
+
+code .
+
+---
+
+## 2. Fetch Latest Changes
+
+Before working, always make sure your repository is up to date.
+
+In terminal:
+
+git pull 
+
+---
+
+# Workflow
+
+## Before Starting Work
+
+Always pull the latest changes first:
+
+git pull
+
+---
+
+# Uploading Changes Through Terminal
+
+## 1. Check Changed Files
+
+git status
+
+## 2. Add Files
+
+git add .
+
+## 3. Commit Changes
+
+git commit -m "Describe your changes here"
+
+Example:
+
+git commit -m "Added OpenCV gate detection script"
+
+## 4. Push Changes to GitHub
+
+git push
+
+NOTE: Double check your work was uploaded properly in github 
+
+---
+
+# Important Notes
+
+- Always code inside the WSL VS Code window
+- Always pull changes before starting work
+- Keep documentation updated
+- Commit frequently with clear commit messages
+- Avoid modifying unrelated files
+
+# Open-source AUV/underwater robotics repos + extra resources:
+
+https://github.com/clydemcqueen/orca4
+
+https://github.com/fkromer/awesome-ros2
+
+https://github.com/bluerobotics/cockpit
+
+https://github.com/bluerobotics/BlueOS
+
+https://github.com/ArduPilot/ardupilot
+
+https://github.com/TMU-Wave/bluesim
+
+https://github.com/TMU-Wave/TMUWaveSim
