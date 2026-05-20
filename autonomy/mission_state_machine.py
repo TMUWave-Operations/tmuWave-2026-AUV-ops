@@ -1,4 +1,4 @@
-class StateMachine:
+class StateMachine: 
 
     """
     Objective: 
@@ -13,7 +13,7 @@ class StateMachine:
     - update the mission state
     
     Notes:
-    - expand a bit about cose here 
+    - expand a bit about stuff here 
     """
     # define the states of the AUV mission
     def Initial(self):
