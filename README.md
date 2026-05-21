@@ -22,7 +22,7 @@ Before starting, install the following:
   - Pylance
   - Dev Containers
 - Python 3           - https://www.python.org/downloads/
-- Docker Desktop
+- Docker Desktop     - https://docs.docker.com/desktop/setup/install/windows-install/
 
 Recommended VS Code Extensions:
 - Python
