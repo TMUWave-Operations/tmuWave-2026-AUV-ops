@@ -12,10 +12,17 @@ Guide for WSL: https://learn.microsoft.com/en-us/windows/wsl/setup/environment#f
 Before starting, install the following:
 
 - WSL (Windows Subsystem for Linux)
-- Ubuntu (through WSL)
+- Ubuntu 
 - GitHub Desktop     - https://desktop.github.com/download/
 - Visual Studio Code - https://code.visualstudio.com/
+- VS Extensions
+  - WSL
+  - Python
+  - Python Debugger
+  - Pylance
+  - Dev Containers
 - Python 3           - https://www.python.org/downloads/
+- Docker Desktop
 
 Recommended VS Code Extensions:
 - Python
@@ -52,6 +59,12 @@ git config --global user.name "your username/email"
 
 code .
 
+## Reopen in Container:
+
+Ctrl + Shift + P
+
+Reopen in container
+
 ---
 
 # Workflow
@@ -65,6 +78,8 @@ cd ~/projects/tmuWave-2026-AUV-ops
 git pull
 
 code .
+
+Reopen in container
 
 ---
 
@@ -96,7 +111,6 @@ NOTE: Double check your work was uploaded properly in github
 
 # Important Notes
 
-- Always code inside the WSL VS Code window
 - Always pull changes before starting work
 - Keep documentation updated
 - Commit frequently with clear commit messages
