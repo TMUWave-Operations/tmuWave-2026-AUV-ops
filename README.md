@@ -104,7 +104,7 @@ NOTE: Double check your work was uploaded properly in github
 
 ---
 
-##The repository uses:
+## The repository uses:
 
 - WSL (Ubuntu)
 - Docker
@@ -112,7 +112,7 @@ NOTE: Double check your work was uploaded properly in github
 
 *all team members use the same development environment and dependencies
 
-##The development container includes:
+## The development container includes:
 
 - Python
 - OpenCV
