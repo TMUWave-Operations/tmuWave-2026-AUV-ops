@@ -13,7 +13,6 @@ Before starting, install the following:
 
 - WSL (Windows Subsystem for Linux)
 - Ubuntu 
-- GitHub Desktop     - https://desktop.github.com/download/
 - Visual Studio Code - https://code.visualstudio.com/
 - VS Extensions
   - WSL
@@ -24,10 +23,6 @@ Before starting, install the following:
 - Python 3           - https://www.python.org/downloads/
 - Docker Desktop     - https://docs.docker.com/desktop/setup/install/windows-install/
 
-Recommended VS Code Extensions:
-- Python
-- Python Debugger
-- Pylance
 
 Latest versions are fine for all software.
 
@@ -108,6 +103,23 @@ git push
 NOTE: Double check your work was uploaded properly in github 
 
 ---
+
+##The repository uses:
+
+- WSL (Ubuntu)
+- Docker
+- VS Code Dev Containers
+
+*all team members use the same development environment and dependencies
+
+##The development container includes:
+
+- Python
+- OpenCV
+- pymavlink
+- ArduPilot / ArduSub SITL tools
+
+QGroundControl remains installed separately on Windows.
 
 # Important Notes
 
