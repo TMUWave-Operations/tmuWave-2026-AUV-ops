@@ -12,6 +12,7 @@
 8. Run git add .
 9. Run git commit -m "Describe your changes"
 10. Run git push
+11. Have fun
 
 ## Team Rules
 
