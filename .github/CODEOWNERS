@@ -1,0 +1,11 @@
+# Software Lead Approval Required
+
+.devcontainer/* @r104b
+
+requirements.txt @r104b
+
+.gitignore @r104b
+
+README.md @r104b
+
+.github/* @r104b
