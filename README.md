@@ -1,7 +1,7 @@
 # TMU Wave AUV Software Repository Onboarding
 Task Distribution Guide: https://docs.google.com/document/d/1PYVXZZVbqKc5l0N-4jWKEzgkkuRrkx8ZUTT8R2Tvwa4/edit?tab=t.0
 
-Task Distribution Tracker: https://docs.google.com/spreadsheets/d/13jqPk8_FQUEE8H4M-rOIdoNeXM-QC-CMDc386ToPW-o/edit?gid=0#gid=0
+Weekly Task Tracker: https://docs.google.com/spreadsheets/d/13jqPk8_FQUEE8H4M-rOIdoNeXM-QC-CMDc386ToPW-o/edit?gid=0#gid=0
 
 NOTE: The current file structure was created as a base for the subteam to use, if additional files need to be created then please create them with clear intention and put them in their respective folders - same goes for creating additional folders. Make sure file/folder names are clear and that ALL folders you work in include a **README**. 
 
