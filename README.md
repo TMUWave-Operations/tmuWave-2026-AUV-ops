@@ -117,7 +117,8 @@ NOTE: Double check your work was uploaded properly in github
 - Python
 - OpenCV
 - pymavlink
-- ArduPilot / ArduSub SITL tools
+  
+ArduPilot / ArduSub SITL runs in a separate Docker container under docker/ardupilot.
 
 QGroundControl remains installed separately on Windows.
 
