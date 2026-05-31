@@ -1,0 +1,10 @@
+services:
+  ardupilot-sitl:
+    build:
+      context: .
+      dockerfile: docker/ardupilot/Dockerfile
+    container_name: ardupilot-sitl
+    working_dir: /opt/ardupilot
+    stdin_open: true
+    tty: true
+    network_mode: host
