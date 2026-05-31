@@ -4,3 +4,9 @@ __pycache__/
 .env
 .vscode/
 .DS_Store
+
+mav.tlog
+mav.parm
+*.BIN
+*.log
+*.tmp
