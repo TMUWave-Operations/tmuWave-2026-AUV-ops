@@ -28,7 +28,7 @@ Latest versions are fine for all software.
 
 ---
 
-# Initial Repository Setup (UBUNTU):
+# Environment Setup:
 
 ## Open ubuntu and make a project folder
 
@@ -45,10 +45,6 @@ git clone 'https clone link'
 ## Go into repo: 
 
 cd tmuWave-2026-AUV-ops
-
-## Configure Git (first time only): 
-
-git config --global user.name "your username/email"
 
 ## Open VS code (still from ubuntu): 
 
@@ -80,11 +76,13 @@ Reopen in container
 
 # Uploading Changes Through Terminal
 
-## 1. Check Changed Files
+## 1. Create a branch
+
+git checkout -b "name of branch"
+
+## 2. Check and add your changes
 
 git status
-
-## 2. Add Files
 
 git add .
 
@@ -100,7 +98,17 @@ git commit -m "Added OpenCV gate detection script"
 
 git push
 
-NOTE: Double check your work was uploaded properly in github 
+## Create Pull Request
+
+Create a Pull Request on GitHub and request review before merging.
+
+---
+# Branch Protection
+
+The main branch is protected.
+
+All code changes should be developed on feature branches and submitted through Pull Requests.
+
 
 ---
 
