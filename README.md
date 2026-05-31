@@ -40,7 +40,7 @@ cd ~/projects
 
 ## Clone repo: 
 
-git clone 'https clone link'
+git clone https://github.com/TMUWave-Operations/tmuWave-2026-AUV-ops.git
 
 ## Go into repo: 
 
